@@ -1,9 +1,9 @@
-h1,h2 {
+h1,h2,div{
 
        font-family: "Forum", serif;
 }
 
-p,ul,li,div,tr,td,th{
+p,ul,li,tr,td,th{
 
        font-family: "Quicksand", sans-serif;
 }
