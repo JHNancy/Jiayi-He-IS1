@@ -1,5 +1,9 @@
 /* styles.css */
 
 h1,h2 {  
-	font-family: "Varela Round", sans-serif;
+	font-family: "Rock Salt", cursive;
+}
+
+p,ul {
+	 font-family: "Caveat Brush", cursive;
 }
