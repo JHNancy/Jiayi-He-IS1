@@ -42,6 +42,32 @@
 		<li>Main Cours: Cheese and Tomato Pasta </li>
 		<li>Dessert: Match Ice Cream </li>
 	</ul>
-	<h2>RSVP Form</h2>
+ <section class="overlay">
+		<h2>RSVP form</h2>
+      <p>Name:</p>
+      <form action="submission.html" method="GET">
+        <br>
+		   <section class="guest">
+          <span>Will you be bringing a guest?</span>
+          <br>
+          <input type="radio" name="guest" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="guest" id="no" value="no">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="guest number">
+          <label for="amount">How many guest would you like to bring?</label>
+          <input type="number" name="amount" id="amount">
+        </section>
+        <hr>
+		<section class="extra-info">
+          <label for="extra">Please tell me any dietary preferences you have.</label>
+          <br>
+			<textarea id="extra" name="extra" rows="3" cols="40">
+          </textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
 </body>
 </html>
