@@ -1,7 +1,13 @@
-h1,h2{
+h1,h2,h3{
         font-family: "Bona Nova SC", serif;
+        color:#97B3AE;
 }
 
 p,ul {
         font-family: "Nothing You Could Do", cursive;
+        color:#BFC1CE;
+}
+
+body {
+background-color:#F0EEEA;
 }
