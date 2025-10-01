@@ -2,7 +2,7 @@
 
 h1,h2 {  
 	font-family: "Rock Salt", cursive;
-	border-bottom:#FCDCE1
+	border-bottom:#FCDCE1,3px;
 }
 
 p,ul {
@@ -10,5 +10,5 @@ p,ul {
 }
 
 body {
-	background-color:#C4DFE5
+	background-color:#C4DFE5;
 }
