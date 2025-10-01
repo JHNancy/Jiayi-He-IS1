@@ -2,10 +2,12 @@
 
 h1,h2 {  
 	font-family: "Rock Salt", cursive;
-	border-bottom:#FCDCE1 3px solid;
-	border-length: 5px;
 }
 
+h2 {
+	border-bottom:#FCDCE1 3px solid;
+	color:#99AC73;
+}
 p,ul {
 	 font-family: "Caveat Brush", cursive;
 }
