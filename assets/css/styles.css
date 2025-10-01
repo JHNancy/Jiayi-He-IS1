@@ -4,9 +4,13 @@ h1,h2 {
 	font-family: "Rock Salt", cursive;
 }
 
+h1{
+	color:#9BABBE;
+}
+
 h2 {
 	border-top:#DDE8ED 3px solid;
-	color:#99AC73;
+	color:#C3C2D5;
 }
 p,ul {
 	 font-family: "Caveat Brush", cursive;
