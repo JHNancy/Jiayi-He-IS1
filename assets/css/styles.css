@@ -3,7 +3,7 @@
 h1,h2 {  
 	font-family: "Rock Salt", cursive;
 	border-bottom:#FCDCE1 3px solid;
-	border-width:10px;
+	border-radius:0 0 10px 10px
 }
 
 p,ul {
