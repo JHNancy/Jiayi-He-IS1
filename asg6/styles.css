@@ -1,25 +1,44 @@
-/* 
-      .--..--..--..--..--..--.
-    .' \  (`._   (_)     _   \
-  .'    |  '._)         (_)  |
-  \ _.')\      .----..---.   /
-  |(_.'  |    /    .-\-.  \  |
-  \     0|    |   ( O| O) | o|
-   |  _  |  .--.____.'._.-.  |
-   \ (_) | o         -` .-`  |
-    |    \   |`-._ _ _ _ _\ /
-    \    |   |  `. |_||_|   |
-    | o  |    \_      \     |     -.   .-.
-    |.-.  \     `--..-'   O |     `.`-' .'
-  _.'  .' |     `-.-'      /-.__   ' .-'
-.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
-`-._  `.  |________/\_____|    `-.'
-   .'   ).| '=' '='\/ '=' |
-   `._.`  '---------------'
-           //___\   //___\
-             ||       ||
-             ||_.-.   ||_.-.
-            (_.--__) (_.--__)
-       
+h1 {
+        font-family: "Abril Fatface", serif;
+        color:#344E41;
+        font-size: 3.5em;
+        margin: 10px;
+   
+        
+}
 
- Insert all your glorious CSS styles below! */
+h2 {
+        font-family: "Abril Fatface", serif;
+        color:#3A5A40;
+        font-size: 2.8em;
+        margin: 10px;
+}
+
+
+h3 {
+        font-family: "Abril Fatface", serif;
+        color:#588157;
+        font-size: 2em;
+        margin: 10px;
+}
+
+p {
+        font-family: "Forum", serif;
+        color:#758467;
+        font-size:1.2em;
+        margin:15px;
+}
+
+h3,p {
+        border: 5px solid #9CAF88;
+}
+
+body {
+background-color:#F6DCDF;
+background-image: url("images/geometric-leaves.webp");
+background-repeat: repeat;
+}
+
+.images {
+float: right;
+}
