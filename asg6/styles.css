@@ -38,7 +38,9 @@ background-image: url("images/geometric-leaves.webp");
 background-repeat: repeat;
 }
 
-img {
+.image {
 float: right;
 position: right;
+max-width: 100%;
+min-width: 100%;
 }
