@@ -29,8 +29,7 @@ p {
         margin:20px;
         border: 5px solid #9CAF88;
         padding: 10px;
-        display: inline-block;
-        text-align: left;
+        display: block;
 }
 
 body {
@@ -41,8 +40,8 @@ background-repeat: repeat;
 
 img {
 float: right;
-max-width: 100%
-min-width: 100%
+max-width: 0%
+min-width: 0%
 position: relative;
 display: block;
 }
