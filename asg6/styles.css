@@ -39,6 +39,6 @@ background-repeat: repeat;
 }
 
 img {
-float: right;
-position: right;
+float: center-right;
+position: center-right;
 }
