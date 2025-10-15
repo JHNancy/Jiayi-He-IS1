@@ -1,0 +1,99 @@
+/* sigmar-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Sigmar One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/sigmar-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* dynapuff-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DynaPuff';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/dynapuff-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1{
+  font-family: 'Sigmar One';
+  color:#e6b400;
+  text-shadow: 5px 5px #e47200;
+  font-size: 3.5em;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Sigmar One';
+  color: #e6cc00;
+  text-shadow: 5px 5px #e47200;
+  font-size: 2.8em;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Sigmar One';
+  color: #e5de00;
+  text-shadow: 3px 3px #e6b400;
+  font-size: 2em;
+  margin: 10px;
+}
+
+p{
+  font-family: 'DynaPuff';
+  color: #3776A1;
+  font-size: 1.3em;
+  margin: 10px;
+  border: 5px solid #5a9eaf;
+  padding: 10px;
+  display: block;
+  letter-spacing: 2px;
+}
+
+body {
+  background-image: url("images/pixel-heart.webp");
+  background-repeat: repeat;
+}
+
+aside {
+  width:50%;
+  height: auto;
+  float:right;
+  margin:10px;
+  background-color: #8fccdb;
+  padding: 10px 20px;
+  border: 2px dotted #3776A1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #193649;
+}
+
+.bob {
+  float:left;
+}
+
+aside .dave {
+  margin-left: 150px;
+  margin-right: auto;
+  width:50%;
+
+}
+
+aside p {
+  border:none;
+}
+
+.word1 {
+  font-size:4em;
+  text-transform: capitalize;
+  border:none;
+  text-shadow: 2px 2px #193649;
+}
+
+.banana {
+  width:15%;
+  margin-top:50px;
+  float: right;
+  margin-right: 100px;
+  display: flex;
+}
