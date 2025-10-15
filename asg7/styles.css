@@ -98,3 +98,7 @@ aside p {
   margin-right: 100px;
   display: flex;
 }
+
+.clear {
+  clear: both;
+}
