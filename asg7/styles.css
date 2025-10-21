@@ -52,6 +52,10 @@ p{
 }
 
 body {
+max-width:960px;  
+}
+
+html {
   background-image: url("images/pixel-heart.webp");
   background-repeat: repeat;
 }
