@@ -51,14 +51,14 @@ p{
   letter-spacing: 2px;
 }
 
-html {
+body {
   background-image: url("images/pixel-heart.webp");
   background-repeat: repeat;
 }
 
 aside {
-  width:690px;
-  height: 700px;
+  width:50%;
+  height: auto;
   float:right;
   margin:10px;
   background-color: #8fccdb;
@@ -73,10 +73,10 @@ aside {
 }
 
 aside .dave {
-  margin-left: 150px;
+  margin-left: 240px;
   margin-right: auto;
   width:50%;
-  height: auto;
+
 }
 
 aside p {
@@ -91,10 +91,9 @@ aside p {
 }
 
 .banana {
-  width:170px;
-  height:100px;
+  width:15%;
   margin-top:50px;
   float: right;
   margin-right: 100px;
-  display: fixed;
+  display: flex;
 }
