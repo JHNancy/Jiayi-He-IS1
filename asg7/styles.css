@@ -51,10 +51,6 @@ p{
   letter-spacing: 2px;
 }
 
-body {
-max-width:1200px;  
-}
-
 html {
   background-image: url("images/pixel-heart.webp");
   background-repeat: repeat;
