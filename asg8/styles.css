@@ -29,7 +29,7 @@ body {
   max-height:auto;
 }
 
-p , ul{
+p {
   font-size: 1.5em;
   font-family: 'Chivo', sans-serif;
   padding-bottom: 10px;
@@ -38,7 +38,13 @@ p , ul{
   display: block;
   overflow: hidden;
 }
-
+ul{
+  font-size: 1.5em;
+  font-family: 'Chivo', sans-serif;
+  padding-bottom: 10px;
+  padding-left:20px;
+  color: #516e80;
+}
 
 h1,
 .text-size-h1 {
