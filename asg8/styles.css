@@ -36,6 +36,7 @@ p , ul{
   padding-left:20px;
   color: #516e80;
   display: block;
+  overflow: hidden;
 }
 
 
