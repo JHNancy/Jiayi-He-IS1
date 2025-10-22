@@ -1,0 +1,86 @@
+/* castoro-titling-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Castoro Titling';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/castoro-titling-v10-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* chivo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/chivo-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  background-image: url("images/leaves-pattern.webp");
+  background-repeat: repeat;
+  max-height:auto;
+}
+
+p , ul{
+  font-size: 1.5em;
+  font-family: 'Chivo', sans-serif;
+  padding-bottom: 10px;
+  padding-left:20px;
+  color: #516e80;
+}
+
+
+h1,
+.text-size-h1 {
+  font-family: 'Castoro Titling', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left:10px;
+  color: #6b3b2a;
+  text-shadow: 1px 2px #411c0f;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; 
+  font-family: 'Castoro Titling', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-left:10px;
+  color:#723c28;
+}
+
+h3,
+.text-size-h3 { font-size: 1.95em; 
+  font-family: 'Castoro Titling', sans-serif;
+  font-weight: 550;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-left:10px; 
+  color: #804630;
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+           
+.img1 {
+  float:right;
+  margin-bottom: 700px;
+  margin-right: 180px;
+  clear: right;
+  border: 1px dotted #411c0f;
+}
+              
