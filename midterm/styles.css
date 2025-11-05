@@ -22,7 +22,6 @@ body {
   background-image: url(images/leaves-pattern.webp);
   background-repeat: repeat;
   overflow:scroll;
-  max-width:1800px;
 }
 
 h1 {
