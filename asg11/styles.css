@@ -1,0 +1,227 @@
+/* chango-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Chango';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/chango-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* cherry-bomb-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cherry Bomb One';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/cherry-bomb-one-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  font-size: 16px;
+  background: linear-gradient(to bottom, rgb(37, 37, 37),rgb(222, 224, 228));
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+}
+
+header {
+  border: hidden;
+  padding: 20px;
+  border-radius: 30px;
+  height:200px;
+  width: 1700px;
+  margin-left:1%;
+  text-align: center;
+  background-image: url(images/817.jpg);
+  background-repeat: repeat;
+
+}
+
+p {
+  font-family: 'Cherry Bomb One';
+  font-size: 1.6em;
+  padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 
+
+h1,
+.text-size-h1 {
+  font-family: 'Chango', sans-serif;
+  font-weight: 700;
+  margin-top: 1%;
+  font-size: 4em;
+  text-align:center;
+  padding:15px;
+  color: rgb(165, 0, 0);
+  text-shadow: 4px 4px black;
+}
+
+h2,
+.text-size-h2 { 
+  font-size: 2.8em;
+  text-align: center;
+  color: rgb(0,65,145);
+  text-shadow: 3px 3px black;
+  padding: 15px;
+
+}
+
+
+h3,
+.text-size-h3 { 
+  font-size: 2.5em; 
+  color: rgb(0,65,145);
+  text-shadow: 2px 2px black;
+  text-align: start;
+  padding:15px;
+}
+
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+.container {
+  flex-direction: row;
+  border: hidden;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: space-evenly;
+  gap: 15px;
+  padding:20px;
+  border-radius: 30px;
+  background-image: url(images/817.jpg);
+  background-repeat: repeat;
+  width:1700px;
+  margin-left:1%;
+  margin-top: 5%;
+}
+
+.cm {
+  width: 700px;
+  order: 1;
+  flex-shrink: 1;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.sm {
+  width:700px;
+  order: 2;
+  flex-shrink: 1;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+             
+.bp {
+  height:600px;
+  order: 3;
+  flex-shrink: 1;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.cma {
+  width:700px;
+  order: 4;
+  flex-shrink: 1;
+  margin-top:4%;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.bw {
+  height:600px;
+  order: 5;
+  flex-shrink: 1;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.p {
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.cm1 {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  margin-left:10%;
+}
+.p1 {
+  text-align: center;
+  display: inline-block;
+  width:30%;
+  height:40%;
+  margin-left:25%;
+}
+
+
+.bp1 {
+  width: 350px;
+  position: relative;
+  display: inline-block;
+  margin-left:10%;
+}
+.p2 {
+  text-align: center;
+  display: inline-block;
+  width:30%;
+  height:40%;
+  margin-left:25%;
+}
+
+
+
+.cma1 {
+  width:350px;
+  position: relative;
+  display: inline-block;
+  margin-left:10%;
+}
+.p3 {
+  text-align: center;
+  display: inline-block;
+  width:30%;
+  height:30%;
+  margin-left:25%;
+}
+
+.sm1 {
+  width:400px;
+  position: relative;
+  display: inline-block;
+  margin-left:10%;
+}
+.p4 {
+  text-align: center;
+  display: inline-block;
+  width:30%;
+  height:40%;
+  margin-left:25%;
+}
+
+
+.bw1 {
+  width:450px;
+  position: relative;
+  display: inline-block;
+  margin-left:10%;
+}
+.p5 {
+  text-align: center;
+  display: inline-block;
+  width:30%;
+  height:40%;
+  margin-left:24%;
+}
