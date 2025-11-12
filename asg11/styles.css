@@ -30,7 +30,6 @@ header {
   padding: 20px;
   border-radius: 30px;
   height:200px;
-  margin-left:1%;
   text-align: center;
   background-image: url(images/817.jpg);
   background-repeat: repeat;
@@ -101,7 +100,6 @@ small,
   border-radius: 30px;
   background-image: url(images/817.jpg);
   background-repeat: repeat;
-  margin-left:1%;
   margin-top: 5%;
 }
 
