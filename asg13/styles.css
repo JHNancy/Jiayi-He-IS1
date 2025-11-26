@@ -1,0 +1,113 @@
+/* Some selectors to get you started */
+
+/* bona-nova-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bona Nova SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bona-nova-sc-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* bitter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/bitter-v40-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  line-height: 2;
+  background-image: url(images/pattern.jpg);
+  background-repeat: repeat;
+  padding:50px;
+}
+
+header {
+    background-color: #795d4446;
+    border: hidden;
+    border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Bona Nova SC';
+  font-size:4em;
+  text-align: center;
+  padding:15px;
+  color:#8a6240;
+  text-shadow: .5px .5px rgb(27, 26, 26);
+}
+
+h2 {
+  font-family: 'Bona Nova SC';
+  font-size:3.4em;
+  padding:15px;
+  color:#8a6240;
+}
+
+p {
+  font-family: 'Bitter';
+  font-size: 2.2em;
+  padding:15px;
+  text-align: center;
+  color:#4c6444;
+}
+ol {
+  font-family: 'Bitter';
+  font-size: 2.2em;
+  padding:15px;
+  text-align: center;
+  color:#4c6444;
+}
+/* Styles for the whole container */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1r;
+  grid-template-rows: 4fr 4fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  place-items:center;
+  justify-items: center;
+  align-items: center;
+  padding:30px;
+  position: relative;
+  border-radius: 15px;
+  border: 2px dotted #CABA9C;
+  border-radius: 15px;
+}
+
+/* order 1 for wedding photographer */
+#job1 {
+ place-items: center;
+}
+
+.img1 {
+  Width:300px;
+}
+
+a:link {
+    color:#4c6444;
+}
+.link {
+    color:#4c6444;
+}
+
+#job2 {
+    place-items: center;
+}
+
+.img2 {
+    width:300px;
+}
+
+#job3 {
+    place-items: center;
+}
+
+.img3 {
+    width:200px;
+    height:200px;
+}
+
+
+
